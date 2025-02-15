@@ -1,4 +1,6 @@
 // stack (Primmitive) , heap(Non primitive)
+//jo bhi change hoga original value main change hoga 
+
 
 let myyoutubename = "hiteshchoudharydotcom"
 
