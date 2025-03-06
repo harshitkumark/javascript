@@ -17,6 +17,7 @@ tinderUser.isLoggedIn = false
         }
     }
  }
+  //
   // console.log(regularuser.fullname.userfullname.firsrname);
 
   const obj1 ={1:"a",2: "b"}
