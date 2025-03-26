@@ -6,6 +6,8 @@ const user = {
     }
 }
 
-user.WelcomeMessage
+user.WelcomeMessage()
 user.username = "harky"
 user.WelcomeMessage()
+
+//console.log(this);
