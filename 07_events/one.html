@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html Events </title>
+</head>
+<body>
+    <h2>Amazing images </h2>
+    <div>
+        <ul id ="images">
+            <li>img width ="200px" id ="owl" src="https://www.pexels.com/photo/close-up-photo-of-owl-with-one-eye-open-1564839/"alt = "onclick="alert()"('owl')"
+            </li>
+        </ul> 
+    </div>
+    <script>
+        // this is the old method 
+   //document .getElementById('owl').onclick = function(){
+   // alert("owl clicked")
+   //}
+   document.getElementById('owl').addEventListener('click',function(e))
+    </script>
+</body>
+</html>
